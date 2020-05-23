@@ -1,0 +1,214 @@
+/* body {
+    padding-top: 15px;
+} */
+
+.header-wraper {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+    background-color: #fff;
+}
+.title-slide {
+    text-align: center;
+}
+.carousel {
+    height: 650px;
+}
+.carousel-inner {
+    height: 100%;
+}
+.carousel-item {
+    overflow: hidden;
+    height: 100%;
+}
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* .image-2 {
+    max-width: 1360px;
+    width: 100%;
+    height: 650px;
+}
+.image-3 {
+    max-width: 1360px;
+    width: 100%;
+    height: 650px;
+} */
+.div-boxes {
+    margin-top: 70px;
+}   
+/* }.img-boxes {
+    max-width: 265px;
+    width: 100%;
+} */
+.h-2 {
+    font-size: 17px;
+    margin-top: 20px;
+}
+.image-opacity {
+    position: relative;
+    padding-top: 35%;
+}
+.image-opacity img {
+    position: absolute;
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.image-opacity::before {
+    content: '';
+    background-color: #08AEEA;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 2;
+}
+.iframe-video {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    z-index: 3;
+}
+
+.iframe-video iframe {
+    width: 100%;
+    height: 100%;
+}
+.div-icon {
+    margin-top: 140px; 
+    margin-bottom: 70px; 
+}
+/* .div-icon .row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} */
+
+.img-relative {
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 2;
+    background-color: yellow;
+    padding: 4px;
+}
+.div-tour-package {
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.p {
+    margin-top: 20px;
+}
+/* <!-- bg-img section --> */
+.input-email {
+    border-radius: 20px;
+    padding: 5px;
+}
+.button {
+    border-radius: 70px;
+    padding: 5px;
+}
+/* .div-icon .row .col-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} */
+.column-4 {
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bg-div {
+    background-image: url(./images/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    width: 100%;
+}
+.bg-div-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-div-title h3 {
+    margin-top: 750px;
+}
+.bg-div-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    color: #ffffff;
+    background-color: #08AEEA;
+    border-radius: 45px;
+    border: none;
+    padding: 15px;
+    max-width: 170px;
+    width: 100%;
+}
+.map {
+    width: 100%;
+    height: 435px;
+    margin-top: 80px;
+}
+.div-footer {
+   background-color: black;
+   width: 100%;
+}
+.ul-footer {
+    /* padding: 30px */
+}
+.input-email {
+    max-width: 340px;
+    width: 100%;
+}
+.div-rights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-top: 1px solid #ffff;
+
+}
+.col-6 {
+    padding: 0!important;
+}
+.row {
+    padding: 0!important;
+}
+.f-a {
+    color: white;
+}
+.label {
+    color: white;
+}
+.py-3 {
+    color: white;
+}
+/* @font-face {
+    font-family: 'Raleway', sans-serif;
+} */
