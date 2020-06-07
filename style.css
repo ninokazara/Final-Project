@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* body {
     padding-top: 15px;
 } */
@@ -25,7 +32,8 @@
 .carousel-item img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 /* .image-2 {
     max-width: 1360px;
@@ -54,7 +62,8 @@
 }
 .image-opacity img {
     position: absolute;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
     width:100%;
     height: 100%;
     top: 0;
@@ -75,7 +84,9 @@
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+            transform: translate(-50%);
     margin: auto;
     width: 50%;
     height: 50%;
@@ -99,6 +110,8 @@
 
 .img-relative {
     position: relative;
+    max-height: 421px;
+    height: 100%;
 }
 .p-absolute {
     position: absolute;
@@ -110,19 +123,50 @@
 }
 .div-tour-package {
     margin-top: 140px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .p {
     margin-top: 20px;
 }
-/* <!-- bg-img section --> */
+.img-surfing-relative {
+    position: relative;
+}
+.div-surfing-absolute {
+    position: absolute;
+    left: 400px;
+    right: 400px; 
+    top: 100px;
+    z-index: 3;
+}
+.p-surfing {
+    color: #ffffff;
+    font-size: 34px;
+    text-align: center;
+}
+.p1-surfing {
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+}
 .input-email {
     border-radius: 20px;
     padding: 5px;
 }
+
+/* <!-- bg-img section --> */
+
 .button {
     border-radius: 70px;
     padding: 5px;
@@ -135,10 +179,19 @@
 } */
 .column-4 {
     background-color: #F4F4F4;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .bg-div {
     background-image: url(./images/bg-img.png);
@@ -149,17 +202,29 @@
     width: 100%;
 }
 .bg-div-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .bg-div-title h3 {
     margin-top: 150px;
 }
 .bg-div-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .btn {
     color: #ffffff;
@@ -170,6 +235,7 @@
     max-width: 170px;
     width: 100%;
 }
+
 /* destination section */
 .img-absolute {
     position: absolute;
@@ -216,9 +282,15 @@
     width: 100%;
 }
 .div-rights {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-color: black;
     border-top: 1px solid #ffff;
 
@@ -238,9 +310,6 @@
 .py-3 {
     color: white;
 }
-/* @font-face {
-    font-family: 'Raleway', sans-serif;
-} */
 
 /* page-2 */
 
@@ -250,6 +319,9 @@
 }
 .title-h1:hover {
     color: red;
+    -webkit-transition: all 0.5s linear 0.5s;
+    -o-transition: all 0.5s linear 0.5s;
+    transition: all 0.5s linear 0.5s;
 }
 .money {
     max-width: 400px;
@@ -263,4 +335,65 @@
 }
 .icon-fb:hover {
    color: blue;
+   -webkit-transition: all 0.5s linear 0.5s;
+   -o-transition: all 0.5s linear 0.5s;
+   transition: all 0.5s linear 0.5s;
+}
+
+/* page-3 */
+.p-italy {
+    font-size: 32px;
+    max-width: 800px;
+    width: 100%;
+    font-weight: 10;
+    line-height: 1.5;
+}
+
+/* page-4 */
+.div-paris {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.div-paris:hover {
+    color: aqua;
+    -webkit-transition: all 0.5s linear 0.5s;
+    -o-transition: all 0.5s linear 0.5s;
+    transition: all 0.5s linear 0.5s;
+}
+.p-paris {
+    font-size: 24px;
+    max-width: 800px;
+    width: 100%;
+    margin-bottom: 100px;
+  
+}
+.p2-paris {
+    font-size: 24px;
+    max-width: 700px;
+    width: 100%;
+}
+/* fonts */
+.font-semibold {
+    font-family: 'Raleway', sans-serif;
+}
+
+.font-medium {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #8D8D8D;
+}
+.font-medium-blue {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #4B54FA;
+}
+.font-italic {
+    font-family: 'Raleway', sans-serif;
 }
